@@ -1,61 +1,62 @@
+## The End Points
 
-The End Points 
-----------------------------------------------------------------
-/**
- * EndPoint for  
- */
+/\*\*
 
-  // get the songs in the database songs
-  http://localhost:3001/api/songs
+- EndPoint for  
+  \*/
 
-  // add a song
-  http://localhost:3001/api/song
+// get the songs in the database songs
+http://localhost:3001/api/songs
 
-  // update a song using id
-  http://localhost:3001/api/song/:id
+// add a song
+http://localhost:3001/api/song
 
-  // delete a song using id 
-  http://localhost:3001/api/song/:id
+// update a song using id
+http://localhost:3001/api/song/:id
 
+// delete a song using id
+http://localhost:3001/api/song/:id
 
-/**
- * EndPoint for Playlists 
- */
+/\*\*
 
-   // get the All the in tha database playlists
-   http://localhost:3001/api/playlists
+- EndPoint for Playlists
+  \*/
 
-   // add a playlist
-   http://localhost:3001/api/playlist
- 
-   // update a playlist
-   http://localhost:3001/api/playlist/:id
- 
-   // delete a playlist
-   http://localhost:3001/api/playlist/:id'
+  // get the All the in tha database playlists
+  http://localhost:3001/api/playlists
 
-   
-/**
- * EndPoint for Users 
- */
+  // add a playlist
+  http://localhost:3001/api/playlist
 
-   // get the All the in the database Users
-   http://localhost:3001/api/users
+  // update a playlist
+  http://localhost:3001/api/playlist/:id
 
-/**
- * EndPoint for User Login
- */
+  // delete a playlist
+  http://localhost:3001/api/playlist/:id'
 
-   // Users log-in in plain text (username and password)
-   http://localhost:3001/auth/login 
+/\*\*
 
-/**
-* EndPoint hashing user password
-*/
+- EndPoint for Users
+  \*/
 
- 
-Resources
-----------------------------------------------------------------
+  // get the All the in the database Users
+  http://localhost:3001/api/users
+
+/\*\*
+
+- EndPoint for User Login
+  \*/
+
+  // Users log-in in plain text (username and password)
+  http://localhost:3001/auth/login
+
+/\*\*
+
+- EndPoint hashing user password
+  \*/
+
+## Resources
+
 ExpressJS (NodeJS Framework)
 Node.JS sqlite3 Module Documentation
 VSCode (Code Editor)
@@ -69,18 +70,13 @@ Faker - faker users for seeding the user database
 Jsonwebtoken - for web tokens
 Knex - connect to the database
 Passport and passport-local
-Uuid - to generate date 
-Jest - for unit tests 
+Uuid - to generate date
+Jest - for unit tests
 Supertest - for
-Babel-jest - 
+Babel-jest -
 Eslint - for a cade up to airbnb standards
 Cross-environment - to have control over the environment we are working on (node, test or seed)
 
+Middleware (filter that tells if you are a user or admin, if is_admin you have all the previlages addding a song and editing a song.)
 
-
-Middleware (filter that tells if you are a user or admin (I Thabisa will be the only one admin, my app my rules), if is_admin you have all the previlages addding a song and editing a song.)
-
-
-Functinality
-----------------------------------------------------------------
-
+## Functinality
